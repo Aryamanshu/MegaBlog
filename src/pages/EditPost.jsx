@@ -27,7 +27,7 @@ function EditPost() {
   return  post ? (
     <div className='py-8'>
         <Container>
-            <PostForm post={post} />
+            <PostForm post={post?.data} />
         </Container>
     </div>
   ) : null
